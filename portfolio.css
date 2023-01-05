@@ -159,4 +159,65 @@ color: #757575;
 }
 
 /* Resume Section */
+ .resume-content{
+  display: flex;
+  gap: 24px;
+}
 
+.resume-item{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.resume-item .title{
+   font-weight: 700;
+   font-size: 25px;
+   color: #474747;
+   margin-bottom: 10px;
+}
+.resume-item .sub--title{
+  color: #757575;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.resume-item .descrition{
+  color: #757575;
+}
+.resume-title{
+  margin-bottom: 25px;
+  font-weight: 800;
+  font-size: 25px;
+}
+.resume-btn{
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* Contact style */
+.connect{
+  display: flex;
+  gap: 100px;
+  background: #FFF8F3;
+  padding: 130px 200px;
+}
+
+.connect .section-title{
+  text-align: left;
+}
+
+.connect input[type="text"],input[type="email"],textarea{
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+}
+input{
+  height: 64px;
+}
+.connect a{
+  text-decoration: none;
+}
+.sect-des{
+  padding-bottom: 15px;
+}
